@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7447fe1200765077b5b90141e15d18417c87341
 import streamlit as st
 from PIL import Image
 
@@ -23,7 +27,11 @@ st.subheader('Click here for Available Courses')
 
 course = st.selectbox( '', ['BSc. Computer Science','BSc. Mathematics', 'BSc. Biochemistry', 'BSc. Physics with Electronics'])
 
+<<<<<<< HEAD
 st.subheader("Enter Five Relevant 'O' Level Subjects")
+=======
+st.subheader('Enter five Relevant UTME subjects')
+>>>>>>> a7447fe1200765077b5b90141e15d18417c87341
 
 course_list = ['BSc. Computer Science','BSc. Mathematics', 'BSc. Biochemistry', 'BSc. Physics with Electronics']
 # Eligibility criteria 2
